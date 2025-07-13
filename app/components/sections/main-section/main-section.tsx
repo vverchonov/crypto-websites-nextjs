@@ -17,6 +17,7 @@ export const MainSection = (props: any) => {
   const { y, ref } = useMoveOnScrollHook(100);
   const { word } = useGetWordsHook();
 
+
   return (
     <div className="flex min-h-screen w-full relative">
       <AppearWrapper>
